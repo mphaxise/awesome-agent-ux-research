@@ -1,47 +1,6 @@
 # Awesome Agent UX Research
 
-A docs-only collection of resources, products, papers, and community notes on:
-
-- AI agent UX
-- UX research for AI agents
-- UX research as a service for app-building agents
-- human-AI interaction patterns that matter for agent products
-- evaluation methods for agent usability, trust, and handoff quality
-
-## Why this repo exists
-
-There are already many repos for:
-
-- agent frameworks
-- agent papers
-- eval tooling
-- prompt and orchestration patterns
-
-There is much less GitHub-native curation for the overlap between:
-
-- agent products,
-- UX research,
-- human-AI interaction,
-- and practical evaluation of real agent experiences.
-
-This repo is meant to be that bridge.
-
-## Scope
-
-Include:
-
-- product landscape notes for tools related to synthetic testing, agent QA, browser agents, and UX research
-- human-AI interaction papers and practical design guidelines
-- community discussion threads that reveal what builders and researchers actually trust or reject
-- evaluation methods for agent usability, trust calibration, override, and handoff
-- GitHub repos, papers, docs, and public writeups that help teams design better agent experiences
-
-Do not include:
-
-- generic AI news
-- unrelated LLM tooling
-- random prompt collections without UX relevance
-- implementation code unless it is directly useful for evaluation or UX research
+A curated hub for AI agent UX, UX research for AI agents, and human-AI interaction patterns that matter in real products.
 
 ## Repo Map
 
@@ -98,3 +57,38 @@ Prefer entries that are:
 - categorized in a way that helps product teams make decisions
 
 If you add a source, include one sentence on what it is and one sentence on why it matters for agent UX.
+
+## Why this repo exists
+
+There are already many repos for:
+
+- agent frameworks
+- agent papers
+- eval tooling
+- prompt and orchestration patterns
+
+There is much less GitHub-native curation for the overlap between:
+
+- agent products
+- UX research
+- human-AI interaction
+- practical evaluation of real agent experiences
+
+This repo is meant to be that bridge.
+
+## Scope
+
+Include:
+
+- product landscape notes for tools related to synthetic testing, agent QA, browser agents, and UX research
+- human-AI interaction papers and practical design guidelines
+- community discussion threads that reveal what builders and researchers actually trust or reject
+- evaluation methods for agent usability, trust calibration, override, and handoff
+- GitHub repos, papers, docs, and public writeups that help teams design better agent experiences
+
+Do not include:
+
+- generic AI news
+- unrelated LLM tooling
+- random prompt collections without UX relevance
+- implementation code unless it is directly useful for evaluation or UX research
