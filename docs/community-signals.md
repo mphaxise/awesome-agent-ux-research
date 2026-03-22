@@ -40,3 +40,10 @@ This file tracks what practitioners actually say in public, especially where tha
 - Researchers and builders react differently to the same pitch.
 - QA and UX language pull the category in different directions.
 - Public discussion is often a better early signal of category resistance than marketing copy.
+
+## Practitioner Editorials
+
+- [AI-Unmoderated Research Is a Modality Now. Stop Arguing About What to Call It. It Doesn't Need Your Approval. It Needs a Framework.](https://www.thevoiceofuser.com/ai-unmoderated-research-is-a-modality-now-stop-arguing-about-what-to-call-it-it-doesnt-need-your-approval-it-needs-a-framework/) — *The Voice of User*, March 2026
+  - What it is: Editorial by Constantine Papas (UX research strategist, PhD) arguing that AI-moderated conversational research is already being deployed at scale without the infrastructure to do it well. The core argument: the weaknesses critics identify are not inherent flaws in the modality—they are what happens when any modality is run without proper structure. Proposes routing logic (risk × ambiguity × expiry), quality standards, governance models, and stakeholder engagement playbooks as the missing framework.
+  - Signal: Practitioners are ahead of the field's taxonomy debates; demand for operational frameworks (not just tools) is real.
+  - Why it matters: Directly relevant to how agent UX research tools should be positioned—not as replacements for traditional qual, but as a distinct modality with its own routing criteria and governance requirements.
