@@ -49,3 +49,9 @@ This file collects theory, design guidance, and benchmarks that shape agent UX t
 - What papers best address trust calibration, override, and mixed initiative?
 - Which benchmarks measure task completion but miss experience quality?
 - What would a benchmark for agent UX look like?
+
+## Large-scale empirical studies
+
+- [What 81,000 People Want from AI](https://www.anthropic.com/81k-interviews) — Anthropic, March 2026
+  - What it is: The largest qualitative study of AI users to date—nearly 81,000 Claude users across 159 countries, conducted in December 2025 using Anthropic Interviewer (a Claude variant trained to conduct interviews). Covers current usage patterns, aspirational hopes, and fears. Surfaces a central "light and shade" paradox: the features users value most (productivity, emotional support, cognitive assistance) are identical to their deepest anxieties (dependency, job displacement, cognitive atrophy). Geography, economic context, and cultural factors strongly shape sentiment—emerging economies skew optimistic, wealthier nations more skeptical and governance-focused.
+  - Why it matters: First large-scale qualitative benchmark for understanding how humans actually experience AI at global scale. Directly relevant to agent UX: users are asking for tools that are transparent, controllable, and respectful of human-AI partnership—not just more powerful. The AI-moderated interview methodology is itself a case study in running AI-unmoderated research at scale, making it a useful reference for both findings and method.
