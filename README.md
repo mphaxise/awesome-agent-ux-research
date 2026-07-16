@@ -6,6 +6,20 @@ I built this collection because the useful material was scattered across several
 
 This is a curated starting point, not an exhaustive link dump. Sources are organized around product and research questions so that builders, founders, designers, and researchers can move from “what is happening in this field?” to “what should we investigate or design differently?”
 
+```mermaid
+flowchart TB
+    A["Agent UX product question"] --> B["Products and landscape"]
+    A --> C["Papers and guidelines"]
+    A --> D["Community signals"]
+    A --> E["Evaluation and design patterns"]
+    B --> F["Evidence-informed product and research decisions"]
+    C --> F
+    D --> F
+    E --> F
+```
+
+*The collection is organized as a decision aid: four evidence surfaces converge on practical product, design, and research questions.*
+
 ## Start with the question you are trying to answer
 
 - **What products and infrastructure already exist?** Read [Products and Landscape](docs/products-and-landscape.md).
