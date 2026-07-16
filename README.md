@@ -1,14 +1,54 @@
 # Awesome Agent UX Research
 
-A curated hub for AI agent UX, UX research for AI agents, and human-AI interaction patterns that matter in real products.
+**An evidence-minded field guide to AI agent UX, UX research for agents, and the human–AI interaction patterns that matter in real products.**
 
-## Repo Map
+I built this collection because the useful material was scattered across several conversations that rarely meet in one place: agent frameworks, human–AI interaction research, UX practice, synthetic evaluation, browser infrastructure, and the experience of people trying these systems in the real world.
 
-- [docs/products-and-landscape.md](docs/products-and-landscape.md)
-- [docs/papers-and-guidelines.md](docs/papers-and-guidelines.md)
-- [docs/community-signals.md](docs/community-signals.md)
-- [docs/evaluation-and-design-patterns.md](docs/evaluation-and-design-patterns.md)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
+This is a curated starting point, not an exhaustive link dump. Sources are organized around product and research questions so that builders, founders, designers, and researchers can move from “what is happening in this field?” to “what should we investigate or design differently?”
+
+```mermaid
+flowchart TB
+    A["Agent UX product question"] --> B["Products and landscape"]
+    A --> C["Papers and guidelines"]
+    A --> D["Community signals"]
+    A --> E["Evaluation and design patterns"]
+    B --> F["Evidence-informed product and research decisions"]
+    C --> F
+    D --> F
+    E --> F
+```
+
+*The collection is organized as a decision aid: four evidence surfaces converge on practical product, design, and research questions.*
+
+## Start with the question you are trying to answer
+
+- **What products and infrastructure already exist?** Read [Products and Landscape](docs/products-and-landscape.md).
+- **What does research already tell us?** Read [Papers and Guidelines](docs/papers-and-guidelines.md).
+- **What are practitioners and users noticing in the wild?** Read [Community Signals](docs/community-signals.md).
+- **What should a team evaluate or design for?** Read [Evaluation and Design Patterns](docs/evaluation-and-design-patterns.md).
+- **Want to add a source?** Read the [contribution guide](CONTRIBUTING.md).
+
+## Why this field guide exists
+
+There are already strong collections for agent frameworks, agent papers, evaluation tooling, and orchestration patterns. There is much less GitHub-native curation at the overlap of:
+
+- agent products
+- UX research and product design
+- human–AI interaction
+- practical evaluation of real agent experiences
+
+That overlap is where questions about comprehension, control, trust calibration, recovery, and human review become product decisions. This repository is meant to make that space easier to see and use.
+
+## How I curate it
+
+I prefer entries that are:
+
+- grounded in primary sources or clearly labeled practitioner evidence
+- specific about what the source contributes and why it matters
+- useful for a product, design, or research decision
+- honest about the boundary between measured behavior, interpretation, and speculation
+
+The aim is not to manufacture consensus. Conflicting evidence and unresolved questions are part of the map.
 
 ## Good Starting Questions
 
@@ -47,7 +87,7 @@ Community signals:
 - [Replit community thread on agent quality decline](https://www.reddit.com/r/replit/comments/1hcrt2r)
 - [Hacker News launch for Propolis](https://news.ycombinator.com/item?id=45762012)
 
-## Contribution Style
+## Contribution style
 
 Prefer entries that are:
 
@@ -57,24 +97,6 @@ Prefer entries that are:
 - categorized in a way that helps product teams make decisions
 
 If you add a source, include one sentence on what it is and one sentence on why it matters for agent UX.
-
-## Why this repo exists
-
-There are already many repos for:
-
-- agent frameworks
-- agent papers
-- eval tooling
-- prompt and orchestration patterns
-
-There is much less GitHub-native curation for the overlap between:
-
-- agent products
-- UX research
-- human-AI interaction
-- practical evaluation of real agent experiences
-
-This repo is meant to be that bridge.
 
 ## Scope
 
@@ -92,3 +114,13 @@ Do not include:
 - unrelated LLM tooling
 - random prompt collections without UX relevance
 - implementation code unless it is directly useful for evaluation or UX research
+
+## How this connects to the working experiments
+
+This field guide supports a broader set of product and design explorations:
+
+- [AI Agent UX Research Platform](https://github.com/mphaxise/ai-agent-ux-research-platform) — research and design probes for agent UX validation, observability, and human review.
+- [Design Skill Pack for AI Agent Coding Platforms](https://github.com/mphaxise/design-skill-pack-for-ai-agent-coding-platforms) — working design and research workflows for coding agents.
+- [GStack Port for Codex](https://github.com/mphaxise/gstack-port-for-codex) — a practical study in adapting high-rigor workflows across agent runtimes.
+
+The collection is the field map; those repositories are where I turn parts of the map into testable product ideas and working systems.
